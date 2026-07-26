@@ -431,6 +431,15 @@ section { padding: 96px 0; }
   font-size: 1.02rem;
   font-style: italic;
 }
+.testimonial-card blockquote::after {
+  content: "\201D";
+  font-family: var(--font-display);
+  font-size: 3rem;
+  color: var(--color-gold-soft);
+  line-height: 0;
+  vertical-align: -0.4em;
+  margin-left: 4px;
+}
 .testimonial-attribution { display: flex; align-items: center; gap: 14px; margin-top: auto; }
 .testimonial-avatar {
   width: 48px; height: 48px;

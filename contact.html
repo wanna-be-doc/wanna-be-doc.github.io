@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Sanjana Krishnan</title>
+  <meta name="description" content="Get in touch with Sanjana Krishnan for school partnerships, speaking invitations, media inquiries, or Rotary collaborations." />
+  <meta name="keywords" content="community impact, Rotary International literacy" />
+  <link rel="canonical" href="contact.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Contact | Sanjana Krishnan" />
+  <meta property="og:description" content="Connect for school partnerships, speaking invitations, or media inquiries." />
+  <meta property="og:image" content="assets/images/book/book_cover.png" />
+  <meta property="og:url" content="contact.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">📖</span>
+        <span class="logo-text">So You Want to Be a Doctor</span>
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="impact.html">Global Impact</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="endorsements.html">Endorsements</a></li>
+          <li><a href="contact.html" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="container reveal">
+        <span class="eyebrow">Contact</span>
+        <h1>Let's connect</h1>
+        <p>Have a question, feedback, or interested in a partnership? Reach out using the form below.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container" style="max-width:680px; margin:0 auto;">
+        <div class="reveal">
+          <h2 style="margin-bottom:20px;">Send a message</h2>
+          <form id="contact-form" class="form-grid" action="https://formspree.io/f/xdaqpvvk" method="POST">
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" autocomplete="name" required />
+              </div>
+              <div class="field">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" autocomplete="email" required />
+              </div>
+            </div>
+            <div class="field">
+              <label for="reason">Reason for Contact</label>
+              <select id="reason" name="reason">
+                <option value="partnership">Partnership Inquiry</option>
+
+                <option value="speaking">Speaking Invitation</option>
+                <option value="photos">Photo Submission (Gallery/Media)</option>
+                <option value="purchase">Book Purchase / Bulk Order</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+
+            <div class="form-status" id="form-status" role="alert"></div>
+            <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Send Message</button>
+
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><span class="logo-mark">📖</span><span class="logo-text">So You Want to Be a Doctor</span></a>
+        <p>Author of <em>So You Want to Be a Doctor: All About the Human Body</em>, writing educational nonfiction for young readers.</p>
+      </div>
+      <div class="footer-links">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="impact.html">Global Impact</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h3>More</h3>
+        <ul>
+          <li><a href="endorsements.html">Endorsements</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year"></span> Sanjana Krishnan. All rights reserved.</p>
+      <p>In partnership with Rotary International, Books for Africa, Book Aid International Swindon (UK) &amp; WAAW Foundation, Dallas.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

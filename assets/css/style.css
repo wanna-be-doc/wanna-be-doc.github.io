@@ -444,6 +444,12 @@ section { padding: 96px 0; }
 }
 .testimonial-name { font-weight: 700; color: var(--color-navy); }
 .testimonial-role { font-size: 0.85rem; color: var(--color-ink-soft); }
+@media (max-width: 600px) {
+  .testimonial-card { padding: 22px; }
+  .testimonial-quote-mark { font-size: 2.2rem; }
+  .testimonial-card blockquote { font-size: 0.95rem; }
+  .testimonial-role { font-size: 0.8rem; }
+}
 
 /* ---------- Timeline ---------- */
 .timeline { position: relative; padding-left: 32px; }

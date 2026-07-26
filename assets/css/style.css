@@ -423,7 +423,7 @@ section { padding: 96px 0; }
 .testimonial-quote-mark {
   font-family: var(--font-display);
   font-size: 3rem;
-  color: var(--color-gold-soft);
+  color: #d4b44a;
   line-height: 1;
 }
 .testimonial-card blockquote {
@@ -435,7 +435,7 @@ section { padding: 96px 0; }
   content: "\201D";
   font-family: var(--font-display);
   font-size: 3rem;
-  color: var(--color-gold-soft);
+  color: #d4b44a;
   line-height: 0;
   vertical-align: -0.4em;
   margin-left: 4px;

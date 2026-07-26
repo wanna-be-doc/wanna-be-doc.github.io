@@ -449,6 +449,7 @@ section { padding: 96px 0; }
   .testimonial-quote-mark { font-size: 2.2rem; }
   .testimonial-card blockquote { font-size: 0.95rem; }
   .testimonial-role { font-size: 0.8rem; }
+  .grid-1-mobile { grid-template-columns: 1fr !important; }
 }
 
 /* ---------- Timeline ---------- */

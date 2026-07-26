@@ -840,6 +840,25 @@ section { padding: 96px 0; }
   margin: 10px 0 4px 18px;
   list-style: none;
 }
+.toc-more {
+  list-style: none;
+  padding-left: 22px;
+  margin: 4px 0;
+}
+.toc-more::before {
+  display: none;
+}
+.toc-more {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--color-navy);
+  background: rgba(26, 54, 93, 0.08);
+  border: 1px dashed rgba(26, 54, 93, 0.25);
+  border-radius: 20px;
+  padding: 4px 14px;
+  margin-left: 18px;
+}
 .toc-gap {
   text-align: center;
   font-size: 0.95rem;
